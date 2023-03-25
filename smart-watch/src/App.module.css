@@ -1,0 +1,103 @@
+.TopBar{
+    width: 100%;
+    background-color: #282c34;
+    padding: 24px 4 12px;
+    text-align: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.TopBar > img{
+    width: 100px;
+}
+
+.Topbar > img {
+    width: 100px;
+}
+
+.MainContainer {
+    box-sizing: border-box;
+    padding: 4% 12%; 
+    margin-top: 32px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ProductPreview {
+    width: 50%;
+}
+
+.TimeSection{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 48px;
+
+}
+
+.ProductPreview > img { 
+    width: 100%;
+}
+
+.ProductTitle{
+    font-size: 48px;
+    font-family: sans-serif;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.ProductDescription{
+    font-size: 20px;
+    color: magenta;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.SectionHeading{
+
+}
+
+.ProductImage {
+    width: 100%;
+    max-width: 80px;
+    border-radius: 8px;
+    margin: 12px;
+    cursor: pointer;
+}
+
+.SelectedProductImage{
+    border: 2px solid teal;
+}
+
+.FeatureItem{
+    background-color: gainsboro;
+    min-width: 80px;
+    border-radius: 8px;
+    border: 0;
+    text-align: center;
+    margin-right: 12px;
+    cursor: pointer;
+    padding: 12px 12px;
+    font-weight: 600;
+    box-sizing: content-box;
+}
+
+.SelectedFeatureItem{
+    color: white;
+    background-color: grey;
+}
+
+.PrimaryButton{
+    color: white;
+    background-color: teal;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 0;
+    padding: 12px 24px;
+    margin-top: 36px;
+}
